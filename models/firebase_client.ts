@@ -32,7 +32,7 @@ export default class FirebaseClient {
     return FirebaseClient.instance;
   }
 
-  public getAuth(): Auth {
+  public get Auth(): Auth {
     return this.auth;
   }
 }
